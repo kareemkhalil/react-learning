@@ -91,4 +91,4 @@ echo "
   install GIT
 ----------------------
 "
-sudo apt install git
+sudo apt install -y git
