@@ -85,3 +85,10 @@ echo "
 "
 sudo mkdir /opt/back-end
 sudo mkdir /opt/front-end
+
+echo "
+----------------------
+  install GIT
+----------------------
+"
+sudo apt install git
