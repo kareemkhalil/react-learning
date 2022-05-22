@@ -66,6 +66,8 @@ echo "
   UFW (FIREWALL)
 ----------------------
 "
+# Install UFW
+sudo apt install -y ufw
 
 # allow ssh connections through firewall
 sudo ufw allow OpenSSH
@@ -75,3 +77,11 @@ sudo ufw allow 'Nginx Full'
 
 # enable firewall
 sudo ufw --force enable
+
+echo "
+----------------------
+  Create Back-end and front end folders
+----------------------
+"
+sudo mkdir /opt/back-end
+sudo mkdir /opt/front-end
