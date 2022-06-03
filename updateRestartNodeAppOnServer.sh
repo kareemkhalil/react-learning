@@ -2,7 +2,7 @@
 
 sudo rm -rf /opt/back-end
 
-sudo git clone -b develop https://kareem.moh.khalil:Km9121990@gitlab.com/kareem.moh.khalil/bws-api.git /opt/back-end
+sudo git clone -b main https://kareem.moh.khalil:Km9121990@gitlab.com/kareem.moh.khalil/smart-home-api /opt/back-end
 
 # stop the previous pm2
 sudo pm2 kill
